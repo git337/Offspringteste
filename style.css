@@ -1,0 +1,36 @@
+div {
+    width: 300px;
+    height: 300px;
+    border: 1px dotted red;
+    display: relative;
+}
+.a, .b, .c{
+    width: 60px;
+    height: 60px;
+    display: relative;
+    border-radius: 5px;
+}
+.a{
+    background-color: red;
+    padding: 10px auto;
+    opacity: .6;
+    margin: 5px 10px;
+    outline: 5px solid yellow;
+    position: relative;
+    top: -4px;
+    left: 225px;
+}
+.b{
+    background-color: tomato;
+    position: relative;
+    /* top: 10px;
+    left: 10px; */
+    z-index: 1;
+}
+.c{
+    background-color: pink;
+    bottom: 70px;
+    left: 10px;
+    position:relative;
+    
+}
